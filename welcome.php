@@ -21,7 +21,7 @@ window.location ='logout.php';
 
 </head>
 <body>
-<h1>welcome to Admi  page</h1>
+<h1>welcome to Admin  page</h1>
 <h2><?php echo "welcome  ".$user ?></h2>
 <button class="btn btn-success" onclick="logout()">logout</button>
 </body>
@@ -31,8 +31,7 @@ window.location ='logout.php';
 }
 else
 {
-//echo "<script>window.location='login.php'</script>";
-echo "<script>window.location='log.php'</script>";
+echo "<script>window.location='login.php'</script>";
 die();
 }
 
