@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-require_once("inc/datacon.php");
+require_once("inc/con1.php");
 $msg = "";
 
 if(isset($_POST['submit']))
