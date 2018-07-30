@@ -1,7 +1,7 @@
 <?php
 
 
-$con= mysqli_connect("localhost","root","","ghazi");
+$con= mysqli_connect("localhost","root","","ghazi");  // database connection ghazi is database
 
 if(!$con)
 {
